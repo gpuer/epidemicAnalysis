@@ -9,5 +9,6 @@ target/
 *.iws
 *.iml
 *.ipr
-
+.svn
 logs/
+logs
