@@ -39,5 +39,5 @@ public class EpidemicDataController {
     JSONObject getCitys(String area){
         return JsonResult.success(epidService.getCitys(area));
     }
-    
+
 }

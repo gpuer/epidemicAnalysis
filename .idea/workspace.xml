@@ -9,7 +9,9 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gpu/epidemic/config" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gpu/epidemic/exception" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gpu/epidemic/filter" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/czmz/error/log-error-2019-12-23.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/czmz/error/log-error-2019-12-23.0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/czmz/error/log-error-2019-12-24.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/czmz/error/log-error-2019-12-24.0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/czmz/error/log-error-2019-12-25.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/czmz/error/log-error-2019-12-25.0.log" afterDir="false" />
@@ -114,7 +116,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -214,24 +216,6 @@
     <configuration>$USER_HOME$/.subversion</configuration>
     <supportedVersion>125</supportedVersion>
   </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="eabc62e6-2aa7-4d1f-aa2a-9025190c1892" name="Default Changelist" comment="" />
@@ -275,7 +259,7 @@
       <workItem from="1579160529169" duration="5680000" />
       <workItem from="1579588327732" duration="2123000" />
       <workItem from="1580217762155" duration="241000" />
-      <workItem from="1580358732476" duration="3027000" />
+      <workItem from="1580358732476" duration="3698000" />
     </task>
     <task id="LOCAL-00001" summary="yjc">
       <created>1575590938033</created>
@@ -456,10 +440,10 @@
     <state width="1238" height="216" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1580361294153" />
     <state width="1238" height="182" key="GridCell.Tab.2.right/0.23.1280.720@0.23.1280.720" timestamp="1579871206779" />
     <state width="1238" height="146" key="GridCell.Tab.2.right/0.23.1280.721@0.23.1280.721" timestamp="1577341434433" />
-    <state x="149" y="23" width="1024" height="720" key="SettingsEditor" timestamp="1580217805570">
-      <screen x="0" y="23" width="1280" height="719" />
+    <state x="149" y="23" width="1024" height="720" key="SettingsEditor" timestamp="1580364751004">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="149" y="23" width="1024" height="722" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1575863597667" />
+    <state x="149" y="23" width="1024" height="722" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1580364751004" />
     <state x="149" y="23" key="SettingsEditor/0.23.1280.719@0.23.1280.719" timestamp="1580217805570" />
     <state x="149" y="23" width="1024" height="720" key="SettingsEditor/0.23.1280.720@0.23.1280.720" timestamp="1578798635964" />
     <state x="149" y="23" width="982" height="721" key="SettingsEditor/0.23.1280.721@0.23.1280.721" timestamp="1575850893547" />
