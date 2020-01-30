@@ -1,7 +1,5 @@
 package com.gpu.epidemic.controller;
 
-
-import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.gpu.epidemic.entity.EpidemicDataEntity;
 import com.gpu.epidemic.service.EpidemicDataService;
@@ -10,8 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDate;
