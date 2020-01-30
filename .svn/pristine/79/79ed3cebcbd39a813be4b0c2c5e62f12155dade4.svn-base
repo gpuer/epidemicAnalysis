@@ -1,9 +1,0 @@
-package com.czmz.mqtt.online.entity;
-
-import lombok.Data;
-
-@Data
-public class PPage {
-    private Long current;
-    private Long size;
-}
