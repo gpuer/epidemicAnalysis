@@ -1,4 +1,0 @@
-===2020-01-22 10:39:53.036 ERROR WebExceptionHandler Line:17  - Text 'null-01' could not be parsed at index 0
-===2020-01-22 10:40:10.349 ERROR WebExceptionHandler Line:17  - Text 'null-01' could not be parsed at index 0
-===2020-01-22 22:15:07.490 ERROR org.eclipse.paho.client.mqttv3.internal.ClientState Line:210 - server_java_3CVhN: Timed out as no write activity, keepAlive=2,000 lastOutboundActivity=1,579,668,577,562 lastInboundActivity=1,579,668,577,566 time=1,579,702,507,010 lastPing=1,579,668,577,562
-===2020-01-22 22:15:07.544 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:322 - Lost connection: Timed out while waiting to write messages to the server; retrying...

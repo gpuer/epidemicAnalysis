@@ -2,14 +2,12 @@ package com.gpu.epidemic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.servlet.ServletComponentScan;
-import org.springframework.scheduling.annotation.EnableScheduling;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+@EnableSwagger2
 @SpringBootApplication
-@EnableScheduling
-@ServletComponentScan(value = {"com.gpu.epidemic.filter"})
-public class EpidApplication {
+public class EpIdApplication {
     public static void main(String[] args) {
-        SpringApplication.run(EpidApplication.class, args);
+        SpringApplication.run(EpIdApplication.class, args);
     }
 }
