@@ -1,0 +1,11 @@
+package com.czmz.mqtt.appHandle.entity;
+
+import lombok.Data;
+
+import java.time.LocalDateTime;
+import java.util.List;
+@Data
+public class ListJson {
+    private List<LocalDateTime> categories;
+    private List<Series> series;
+}

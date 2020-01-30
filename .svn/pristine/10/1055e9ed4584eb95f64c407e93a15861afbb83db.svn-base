@@ -1,0 +1,35 @@
+package com.czmz.mqtt.userRecord.service.impl;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.common.BaseFinal;
+import com.czmz.mqtt.userRecord.entity.RetUser;
+import com.czmz.mqtt.userRecord.repository.UserRecordMapper;
+import com.czmz.mqtt.userRecord.entity.UserRecord;
+import com.czmz.mqtt.userRecord.service.IUserRecordService;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+/**
+ * <p>
+ *  服务实现类
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-11-29
+ */
+@Service
+public class UserRecordServiceImpl extends ServiceImpl<UserRecordMapper, UserRecord> implements IUserRecordService {
+    @Autowired
+    private UserRecordMapper userRecordMapper;
+    @Override
+    public RetUser getUser(String username) {
+        return userRecordMapper.getUser(username, BaseFinal.NOTDEL);
+    }
+
+    @Override
+    public IPage<UserRecord> selectAll(Page page) {
+        return userRecordMapper.selectAll(page,BaseFinal.NOTDEL);
+    }
+}

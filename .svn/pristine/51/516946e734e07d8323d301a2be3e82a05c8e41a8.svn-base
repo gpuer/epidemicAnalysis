@@ -1,0 +1,58 @@
+package com.czmz.mqtt.userRecord.repository;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.deviceType.entity.DeviceTypeRecord;
+import com.czmz.mqtt.userRecord.entity.RetUser;
+import com.czmz.mqtt.userRecord.entity.UserRecord;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+
+/**
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-11-29
+ */
+@Mapper
+public interface UserRecordMapper extends BaseMapper<UserRecord> {
+    @Select("SELECT" +
+            " u.identity_id as identityId," +
+            " u.id," +
+            " u.username," +
+            " i.identity AS identity," +
+            " c.company as company" +
+            " FROM" +
+            " user_record u" +
+            " LEFT JOIN identity_record i ON u.identity_id = i.id" +
+            " LEFT JOIN company_record c ON u.company_id=c.id" +
+            " WHERE username=#{username} AND u.is_del=#{isDel}")
+    RetUser getUser(@Param("username") String username,@Param("isDel") Integer isDel);
+
+    @Select("SELECT " +
+            " u.id, " +
+            " u.username, " +
+            " u.topic, " +
+            " i.nickname, " +
+            " c.company, " +
+            " u.created_at " +
+            " FROM " +
+            " user_record u " +
+            "LEFT JOIN identity_record i ON u.identity_id=i.id " +
+            "LEFT JOIN company_record c ON u.company_id=c.id " +
+            " WHERE " +
+            " u.username LIKE '${username}%' " +
+            " AND u.company_id like '${companyId}%'" +
+            " AND u.identity_id like '${identityId}%'" +
+            " AND u.is_del = #{isDel}")
+    IPage<UserRecord> selectAll(Page page,
+                                @Param("username")String username,
+                                @Param("companyId")Integer companyId,
+                                @Param("identityId")Integer identityId,
+                                @Param("isDel") Integer isDel);
+
+}

@@ -1,0 +1,58 @@
+package com.czmz.mqtt.filter;
+
+import com.alibaba.druid.util.StringUtils;
+import com.czmz.mqtt.common.JsonResult;
+import com.czmz.mqtt.config.JwtConfig;
+import io.jsonwebtoken.Claims;
+import org.springframework.stereotype.Component;
+import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+
+import javax.annotation.Resource;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.PrintWriter;
+import java.util.Objects;
+
+@Component
+public class TokenInterceptor extends HandlerInterceptorAdapter {
+    @Resource
+    private JwtConfig jwtConfig ;
+    @Override
+    public boolean preHandle(HttpServletRequest request,
+                             HttpServletResponse response,
+                             Object handler) throws Exception {
+        // Token 验证
+        String token = request.getHeader(jwtConfig.getHeader());
+        if(StringUtils.isEmpty(token)){
+            token = request.getParameter(jwtConfig.getHeader());
+        }
+        if(StringUtils.isEmpty(token)){
+            Cookie[] cookies=request.getCookies();
+            if(!Objects.isNull(cookies)){
+                for(Cookie c:cookies){
+                    if(!Objects.isNull(c) && "JWT-token".equals(c.getName())){
+                        token=c.getValue();
+                        continue;
+                    }
+                }
+            }
+            if(StringUtils.isEmpty(token)){
+                PrintWriter printWriter = response.getWriter();
+                printWriter.println(JsonResult.fail("token error",JsonResult.UNPASS_CODE));
+                printWriter.flush();
+                return false;
+            }
+        }
+        Claims claims = jwtConfig.getTokenClaim(token);
+        if(claims == null || jwtConfig.isTokenExpired(claims.getExpiration())){
+            PrintWriter printWriter = response.getWriter();
+            printWriter.println(JsonResult.fail("token invalid",JsonResult.UNPASS_CODE));
+            printWriter.flush();
+            return false;
+        }
+        //设置 identityId 用户身份ID
+        request.setAttribute("identityId", claims.getSubject());
+        return true;
+    }
+}

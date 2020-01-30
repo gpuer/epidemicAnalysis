@@ -1,0 +1,22 @@
+package com.czmz.mqtt.persistence.repository;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.deviceType.entity.DeviceTypeRecord;
+import com.czmz.mqtt.persistence.entity.PersistenceRecord;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+
+/**
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-12-25
+ */
+public interface PersistenceRecordMapper extends BaseMapper<PersistenceRecord> {
+    @Select("select id,client_id,topic,status,created_at from persistence_record WHERE is_del=#{isDel}")
+    IPage<PersistenceRecord> selectAll(Page page,@Param("isDel") Integer isDel);
+}

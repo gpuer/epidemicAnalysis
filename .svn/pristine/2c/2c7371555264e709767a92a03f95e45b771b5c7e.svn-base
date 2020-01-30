@@ -1,0 +1,31 @@
+package com.czmz.mqtt.subscribes.service.impl;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.online.entity.OnlineRecord;
+import com.czmz.mqtt.subscribes.entity.SubscribesRecord;
+import com.czmz.mqtt.subscribes.repository.SubscribesRecordMapper;
+import com.czmz.mqtt.subscribes.service.ISubscribesRecordService;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+/**
+ * <p>
+ *  服务实现类
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-11-29
+ */
+@Service
+public class SubscribesRecordServiceImpl extends ServiceImpl<SubscribesRecordMapper, SubscribesRecord> implements ISubscribesRecordService {
+    @Autowired
+    private SubscribesRecordMapper subscribesRecordMapper;
+    @Override
+    public IPage<SubscribesRecord> selectAll(Page page) {
+        return subscribesRecordMapper.selectAll(page);
+    }
+}

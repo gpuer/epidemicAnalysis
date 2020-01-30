@@ -1,0 +1,10 @@
+package com.czmz.mqtt.appHandle.entity;
+
+import lombok.Data;
+
+import java.util.List;
+@Data
+public class Series {
+    private String name;
+    private List<Double> data;
+}

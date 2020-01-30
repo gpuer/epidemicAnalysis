@@ -1,0 +1,10 @@
+package com.czmz.mqtt.appHandle.entity;
+
+import lombok.Data;
+
+@Data
+public class UpdateRet {
+    private Boolean update;
+    private String url;
+    private String node;
+}

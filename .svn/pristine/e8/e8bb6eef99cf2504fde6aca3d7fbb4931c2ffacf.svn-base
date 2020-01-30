@@ -1,0 +1,31 @@
+package com.czmz.mqtt.online.service.impl;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.online.entity.OnlineRecord;
+import com.czmz.mqtt.online.repository.OnlineRecordMapper;
+import com.czmz.mqtt.online.service.IOnlineRecordService;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+/**
+ * <p>
+ *  服务实现类
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-11-29
+ */
+@Service
+public class OnlineRecordServiceImpl extends ServiceImpl<OnlineRecordMapper, OnlineRecord> implements IOnlineRecordService {
+    @Autowired
+    private OnlineRecordMapper onlineRecordMapper;
+
+    @Override
+    public IPage<OnlineRecord> selectAll(Page page) {
+        return onlineRecordMapper.selectAll(page);
+    }
+}

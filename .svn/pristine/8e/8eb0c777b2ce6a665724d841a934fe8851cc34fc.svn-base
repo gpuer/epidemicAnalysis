@@ -1,0 +1,11 @@
+package com.czmz.mqtt.appHandle.entity;
+
+import lombok.Data;
+
+@Data
+public class NowInfoRet {
+    private String electricity;
+    private String temperature;
+    private String consumption;
+    private Integer deviceStatus;
+}

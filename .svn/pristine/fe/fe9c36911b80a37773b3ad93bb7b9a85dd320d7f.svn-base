@@ -1,0 +1,26 @@
+package com.czmz.mqtt.subscribes.repository;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.online.entity.OnlineRecord;
+import com.czmz.mqtt.subscribes.entity.SubscribesRecord;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+
+import java.util.List;
+
+/**
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-11-29
+ */
+@Mapper
+public interface SubscribesRecordMapper extends BaseMapper<SubscribesRecord> {
+    @Select("select id,client_id,topic,created_at from subscribes_record where is_del=#{isDel}")
+    IPage<SubscribesRecord> selectAll(Page page,@Param("isDel") Integer isDel);
+}

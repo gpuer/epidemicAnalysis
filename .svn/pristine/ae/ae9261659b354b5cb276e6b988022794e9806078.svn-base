@@ -1,0 +1,21 @@
+package com.czmz.mqtt.deviceType.repository;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.deviceType.entity.DeviceTypeRecord;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.czmz.mqtt.online.entity.OnlineRecord;
+import org.apache.ibatis.annotations.Select;
+
+/**
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-12-14
+ */
+public interface DeviceTypeRecordMapper extends BaseMapper<DeviceTypeRecord> {
+    @Select("select id,name,node,created_at from device_type_record")
+    IPage<DeviceTypeRecord> selectAll(Page page);
+}

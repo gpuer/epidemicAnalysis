@@ -1,0 +1,23 @@
+package com.czmz.mqtt.published.repository;
+
+import com.czmz.mqtt.appHandle.entity.PublishedRet;
+import com.czmz.mqtt.published.entity.PublishedRecord;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+
+import java.util.List;
+
+/**
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-11-29
+ */
+@Mapper
+public interface PublishedRecordMapper extends BaseMapper<PublishedRecord> {
+
+}

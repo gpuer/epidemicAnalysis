@@ -1,0 +1,66 @@
+===2019-12-31 08:01:42.269 INFO  com.alibaba.druid.pool.DruidAbstractDataSource Line:1796 - {dataSource-1} failContinuous is false
+===2019-12-31 08:28:07.074 INFO  com.alibaba.druid.pool.DruidDataSource Line:2003 - {dataSource-1} closing ...
+===2019-12-31 08:28:07.088 INFO  com.alibaba.druid.pool.DruidDataSource Line:2075 - {dataSource-1} closed
+===2019-12-31 08:28:49.612 INFO  MqttApplication Line:48  - Starting MqttApplication on bogon with PID 6186 (/Users/gpu/Documents/mqtt/mqtt/mqtt_java_server/target/classes started by gpu in /Users/gpu/Documents/mqtt/mqtt/mqtt_java_server)
+===2019-12-31 08:28:49.614 INFO  MqttApplication Line:593 - No active profile set, falling back to default profiles: default
+===2019-12-31 08:28:50.084 INFO  org.hibernate.validator.internal.util.Version Line:30  - HV000001: Hibernate Validator 5.3.6.Final
+===2019-12-31 08:28:52.706 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:64  - Post-processing PropertySource instances
+===2019-12-31 08:28:52.740 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+===2019-12-31 08:28:52.740 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+===2019-12-31 08:28:52.741 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+===2019-12-31 08:28:52.741 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+===2019-12-31 08:28:52.742 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+===2019-12-31 08:28:52.742 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+===2019-12-31 08:28:52.742 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource refresh [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+===2019-12-31 08:28:53.589 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EncryptablePropertyResolverConfiguration Line:47  - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+===2019-12-31 08:28:54.277 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+===2019-12-31 08:28:54.279 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.27
+===2019-12-31 08:28:54.445 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 - Initializing Spring embedded WebApplicationContext
+===2019-12-31 08:28:55.405 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+===2019-12-31 08:28:56.774 INFO  com.alibaba.druid.pool.DruidDataSource Line:1010 - {dataSource-1} inited
+===2019-12-31 08:29:29.176 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+===2019-12-31 08:29:31.494 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+===2019-12-31 08:29:31.534 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 1 custom documentation plugin(s)
+===2019-12-31 08:29:31.611 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+===2019-12-31 08:29:32.120 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: getAllPageUsingPOST_1
+===2019-12-31 08:29:32.138 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: getAllUsingGET_1
+===2019-12-31 08:29:32.177 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPOST_1
+===2019-12-31 08:29:32.182 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: getAllUsingPOST_1
+===2019-12-31 08:29:32.193 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: getAllPageUsingPOST_2
+===2019-12-31 08:29:32.280 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Initializing ProtocolHandler ["http-nio-8080"]
+===2019-12-31 08:29:32.290 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Starting ProtocolHandler ["http-nio-8080"]
+===2019-12-31 08:29:32.320 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 - Using a shared selector for servlet write/read
+===2019-12-31 08:29:32.363 INFO  MqttApplication Line:57  - Started MqttApplication in 43.738 seconds (JVM running for 45.328)
+===2019-12-31 08:51:57.419 INFO  com.alibaba.druid.pool.DruidDataSource Line:2003 - {dataSource-1} closing ...
+===2019-12-31 08:51:57.470 INFO  com.alibaba.druid.pool.DruidDataSource Line:2075 - {dataSource-1} closed
+===2019-12-31 08:52:08.651 INFO  MqttApplication Line:48  - Starting MqttApplication on bogon with PID 6988 (/Users/gpu/Documents/mqtt/mqtt/mqtt_java_server/target/classes started by gpu in /Users/gpu/Documents/mqtt/mqtt/mqtt_java_server)
+===2019-12-31 08:52:08.653 INFO  MqttApplication Line:593 - No active profile set, falling back to default profiles: default
+===2019-12-31 08:52:09.595 INFO  org.hibernate.validator.internal.util.Version Line:30  - HV000001: Hibernate Validator 5.3.6.Final
+===2019-12-31 08:52:14.301 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:64  - Post-processing PropertySource instances
+===2019-12-31 08:52:14.341 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+===2019-12-31 08:52:14.341 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+===2019-12-31 08:52:14.342 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+===2019-12-31 08:52:14.343 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource systemEnvironment [org.springframework.core.env.SystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+===2019-12-31 08:52:14.344 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource random [org.springframework.boot.context.config.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+===2019-12-31 08:52:14.349 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+===2019-12-31 08:52:14.349 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor Line:57  - Converting PropertySource refresh [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+===2019-12-31 08:52:14.977 INFO  com.ulisesbocchio.jasyptspringboot.configuration.EncryptablePropertyResolverConfiguration Line:47  - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing String Encryptor based on properties with name 'jasyptStringEncryptor'
+===2019-12-31 08:52:15.304 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+===2019-12-31 08:52:15.305 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.27
+===2019-12-31 08:52:15.460 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 - Initializing Spring embedded WebApplicationContext
+===2019-12-31 08:52:16.782 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+===2019-12-31 08:52:18.358 INFO  com.alibaba.druid.pool.DruidDataSource Line:1010 - {dataSource-1} inited
+===2019-12-31 08:52:20.318 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+===2019-12-31 08:52:22.236 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+===2019-12-31 08:52:22.264 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 1 custom documentation plugin(s)
+===2019-12-31 08:52:22.313 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+===2019-12-31 08:52:22.791 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: getAllPageUsingPOST_1
+===2019-12-31 08:52:22.806 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: getAllUsingGET_1
+===2019-12-31 08:52:22.830 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: updateUsingPOST_1
+===2019-12-31 08:52:22.834 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: getAllUsingPOST_1
+===2019-12-31 08:52:22.841 INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Line:40  - Generating unique operation named: getAllPageUsingPOST_2
+===2019-12-31 08:52:22.894 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Initializing ProtocolHandler ["http-nio-8080"]
+===2019-12-31 08:52:22.908 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Starting ProtocolHandler ["http-nio-8080"]
+===2019-12-31 08:52:22.962 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 - Using a shared selector for servlet write/read
+===2019-12-31 08:52:23.015 INFO  MqttApplication Line:57  - Started MqttApplication in 16.633 seconds (JVM running for 20.587)
+===2019-12-31 08:52:29.102 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'

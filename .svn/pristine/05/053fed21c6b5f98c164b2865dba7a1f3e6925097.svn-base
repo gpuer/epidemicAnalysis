@@ -1,0 +1,19 @@
+package com.czmz.mqtt.device.service;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.device.entity.DeviceRecord;
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.czmz.mqtt.deviceType.entity.DeviceTypeRecord;
+
+/**
+ * <p>
+ *  服务类
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-12-23
+ */
+public interface IDeviceRecordService extends IService<DeviceRecord> {
+    IPage<DeviceRecord> selectAll(Page page);
+}

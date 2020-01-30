@@ -1,0 +1,19 @@
+===2020-01-14 08:47:31.186 ERROR WebExceptionHandler Line:17  - Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported
+===2020-01-14 08:47:48.296 ERROR WebExceptionHandler Line:17  - Content type 'text/plain;charset=UTF-8' not supported
+===2020-01-14 08:48:16.277 ERROR WebExceptionHandler Line:17  - Content type 'text/plain;charset=UTF-8' not supported
+===2020-01-14 09:28:30.175 ERROR WebExceptionHandler Line:17  -
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1216894824842665986' for key 'PRIMARY'
+### The error may exist in com/czmz/mqtt/published/repository/PublishedRecordMapper.java (best guess)
+### The error may involve com.czmz.mqtt.published.repository.PublishedRecordMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO published_record  ( id, created_at, flag, client_id, payload, topic,  username )  VALUES  ( ?, ?, ?, ?, ?, ?,  ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1216894824842665986' for key 'PRIMARY'
+; SQL []; Duplicate entry '1216894824842665986' for key 'PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1216894824842665986' for key 'PRIMARY'
+===2020-01-14 09:30:25.691 ERROR WebExceptionHandler Line:17  -
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1216895310962499585' for key 'PRIMARY'
+### The error may exist in com/czmz/mqtt/published/repository/PublishedRecordMapper.java (best guess)
+### The error may involve com.czmz.mqtt.published.repository.PublishedRecordMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO published_record  ( id, created_at, flag, client_id, payload, topic,  username )  VALUES  ( ?, ?, ?, ?, ?, ?,  ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1216895310962499585' for key 'PRIMARY'
+; SQL []; Duplicate entry '1216895310962499585' for key 'PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1216895310962499585' for key 'PRIMARY'

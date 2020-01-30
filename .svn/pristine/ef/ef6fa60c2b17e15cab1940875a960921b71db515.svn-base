@@ -1,0 +1,17 @@
+package com.czmz.mqtt.device.entity;
+
+import lombok.Data;
+
+@Data
+public class MyReqBody {
+    private Integer current;
+    private Integer size;
+    private String name;
+    private Integer companyId;
+    private Integer deviceTypeId;
+
+    //user
+    private String username;
+    private Integer identityId;
+
+}

@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eabc62e6-2aa7-4d1f-aa2a-9025190c1892" name="Default Changelist" comment="yjc">
+      <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_43.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ulisesbocchio_jasypt_spring_boot_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ulisesbocchio_jasypt_spring_boot_starter_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_paho_org_eclipse_paho_client_mqttv3_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_integration_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mobile_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_java_dsl_1_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_mqtt_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_stream_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_mobile_spring_mobile_device_1_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mqtt_java_server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czmz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/error" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/error/log-error-2019-12-23.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/error/log-error-2019-12-24.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/error/log-error-2019-12-25.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/info" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/info/log-info-2019-12-23.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/info/log-info-2019-12-24.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/info/log-info-2019-12-25.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/log_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/log_info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/log_warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/warn" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/warn/log-warn-2019-12-23.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/warn/log-warn-2019-12-24.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/czmz/warn/log-warn-2019-12-25.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/ApplicationInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/MqttApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/appHandle" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/appHandle/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/appHandle/controller/AppHandleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/appHandle/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/appHandle/entity/ListJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/appHandle/entity/NowInfoRet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/appHandle/entity/PublishedRet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/appHandle/entity/SendInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/appHandle/entity/Series.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/appHandle/entity/UpdateRet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/common" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/common/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/common/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/common/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/common/BaseFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/common/DefaultSqlInjector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/common/FileHandleUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/common/JsonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/common/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/common/StringToDateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/common/TimeProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/company" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/company/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/company/controller/CompanyRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/company/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/company/entity/CompanyRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/company/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/company/repository/CompanyRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/company/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/company/service/ICompanyRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/company/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/company/service/impl/CompanyRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/config" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/config/JwtConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/config/MqttConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/config/WebExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/device" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/device/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/device/controller/DeviceRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/device/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/device/entity/DeviceRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/device/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/device/repository/DeviceRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/device/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/device/service/IDeviceRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/device/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/device/service/impl/DeviceRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/deviceType" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/deviceType/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/deviceType/controller/DeviceTypeRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/deviceType/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/deviceType/entity/DeviceTypeRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/deviceType/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/deviceType/repository/DeviceTypeRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/deviceType/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/deviceType/service/IDeviceTypeRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/deviceType/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/deviceType/service/impl/DeviceTypeRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/exception" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/filter" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/filter/CORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/filter/TokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/mqttHadnle" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/mqttHadnle/IMqttSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/online" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/online/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/online/controller/OnlineRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/online/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/online/entity/OnlineRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/online/entity/PPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/online/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/online/repository/OnlineRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/online/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/online/service/IOnlineRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/online/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/online/service/impl/OnlineRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/persistence" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/persistence/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/persistence/controller/PersistenceRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/persistence/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/persistence/entity/PersistenceRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/persistence/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/persistence/repository/PersistenceRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/persistence/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/persistence/service/IPersistenceRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/persistence/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/persistence/service/impl/PersistenceRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/published" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/published/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/published/controller/PublishedRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/published/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/published/entity/PublishedRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/published/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/published/repository/PublishedRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/published/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/published/service/IPublishedRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/published/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/published/service/impl/PublishedRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/subscribes" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/subscribes/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/subscribes/controller/SubscribesRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/subscribes/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/subscribes/entity/SubscribesRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/subscribes/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/subscribes/repository/SubscribesRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/subscribes/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/subscribes/service/ISubscribesRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/subscribes/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/subscribes/service/impl/SubscribesRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/userRecord" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/userRecord/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/userRecord/controller/UserRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/userRecord/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/userRecord/entity/RetUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/userRecord/entity/UserRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/userRecord/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/userRecord/repository/UserRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/userRecord/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/userRecord/service/IUserRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/userRecord/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/userRecord/service/impl/UserRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/utils" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/utils/DeviceDataHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/utils/PubUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/czmz/mqtt/utils/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CompanyRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeviceRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeviceTypeRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OnlineRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PersistenceRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PublishedRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SubscribesRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mqtt_new.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/upload" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/upload/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/czmz" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/czmz/mqtt" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/czmz/mqtt/published" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/czmz/mqtt/published/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/czmz/mqtt/published/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/czmz/mqtt/published/service/impl/PublishedRecordServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/czmz.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/mqtt_java_server.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/ApplicationInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/CodeGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/CodeGenerator$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/MqttApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/appHandle" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/appHandle/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/appHandle/controller/AppHandleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/appHandle/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/appHandle/entity/ListJson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/appHandle/entity/NowInfoRet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/appHandle/entity/PublishedRet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/appHandle/entity/SendInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/appHandle/entity/Series.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/appHandle/entity/UpdateRet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/common" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/common/Base64Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/common/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/common/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/common/BaseFinal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/common/DefaultSqlInjector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/common/FileHandleUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/common/JsonResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/common/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/common/StringToDateConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/common/TimeProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/company" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/company/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/company/controller/CompanyRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/company/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/company/entity/CompanyRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/company/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/company/repository/CompanyRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/company/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/company/service/ICompanyRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/company/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/company/service/impl/CompanyRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/config" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/config/DruidConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/config/JwtConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/config/MqttConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/config/MqttConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/config/WebExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/device" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/device/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/device/controller/DeviceRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/device/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/device/entity/DeviceRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/device/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/device/repository/DeviceRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/device/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/device/service/IDeviceRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/device/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/device/service/impl/DeviceRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/deviceType" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/deviceType/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/deviceType/controller/DeviceTypeRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/deviceType/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/deviceType/entity/DeviceTypeRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/deviceType/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/deviceType/repository/DeviceTypeRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/deviceType/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/deviceType/service/IDeviceTypeRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/deviceType/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/deviceType/service/impl/DeviceTypeRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/exception" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/filter" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/filter/CORSFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/filter/TokenInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/mqttHadnle" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/mqttHadnle/IMqttSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/online" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/online/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/online/controller/OnlineRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/online/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/online/entity/OnlineRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/online/entity/PPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/online/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/online/repository/OnlineRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/online/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/online/service/IOnlineRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/online/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/online/service/impl/OnlineRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/persistence" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/persistence/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/persistence/controller/PersistenceRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/persistence/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/persistence/entity/PersistenceRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/persistence/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/persistence/repository/PersistenceRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/persistence/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/persistence/service/IPersistenceRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/persistence/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/persistence/service/impl/PersistenceRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/published" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/published/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/published/controller/PublishedRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/published/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/published/entity/PublishedRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/published/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/published/repository/PublishedRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/published/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/published/service/IPublishedRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/published/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/published/service/impl/PublishedRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/subscribes" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/subscribes/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/subscribes/controller/SubscribesRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/subscribes/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/subscribes/entity/SubscribesRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/subscribes/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/subscribes/repository/SubscribesRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/subscribes/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/subscribes/service/ISubscribesRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/subscribes/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/subscribes/service/impl/SubscribesRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/userRecord" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/userRecord/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/userRecord/controller/UserRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/userRecord/entity" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/userRecord/entity/RetUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/userRecord/entity/UserRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/userRecord/repository" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/userRecord/repository/UserRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/userRecord/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/userRecord/service/IUserRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/userRecord/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/userRecord/service/impl/UserRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/utils" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/utils/DeviceDataHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/utils/PubUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/czmz/mqtt/utils/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CompanyRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/DeviceRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/DeviceTypeRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/OnlineRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/PersistenceRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/PublishedRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SubscribesRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mqtt_new.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/update" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/update/mqtt_new.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/update/userH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/upload" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/upload/update" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/upload/update/userH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/upload/update/激活码.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/upload/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/czmz-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/czmz-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/testCompile" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mqtt_java.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/czmz" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/czmz/mqtt" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/czmz/mqtt/published" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/czmz/mqtt/published/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/czmz/mqtt/published/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/czmz/mqtt/published/service/impl/PublishedRecordServiceImplTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UHIW41oIr6f7OXghymh0Cg7pjy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.czmz.mqtt.published.service.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/upload" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/update" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MqttApplication (1)">
+    <configuration name="CodeGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czmz.mqtt.CodeGenerator" />
+      <module name="czmz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czmz.mqtt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czmz.mqtt.utils.test" />
+      <module name="czmz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czmz.mqtt.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublishedRecordServiceImplTest.getLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="czmz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czmz.mqtt.published.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.czmz.mqtt.published.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.czmz.mqtt.published.service.impl.PublishedRecordServiceImplTest" />
+      <option name="METHOD_NAME" value="getLearn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqttApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mqtt_java_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czmz.mqtt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czmz.mqtt.MqttApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqttApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="czmz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gpu.mqtt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czmz.mqtt.MqttApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CodeGenerator (1)" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="JUnit.PublishedRecordServiceImplTest.getLearn" />
+      <item itemvalue="Spring Boot.MqttApplication" />
+      <item itemvalue="Spring Boot.MqttApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MqttApplication (1)" />
+        <item itemvalue="Spring Boot.MqttApplication" />
+        <item itemvalue="Application.CodeGenerator (1)" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="JUnit.PublishedRecordServiceImplTest.getLearn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eabc62e6-2aa7-4d1f-aa2a-9025190c1892" name="Default Changelist" comment="" />
+      <created>1575007122308</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575007122308</updated>
+      <workItem from="1575007126169" duration="86000" />
+      <workItem from="1575007448036" duration="11925000" />
+      <workItem from="1575161658176" duration="10213000" />
+      <workItem from="1575249028101" duration="3906000" />
+      <workItem from="1575288657317" duration="761000" />
+      <workItem from="1575336355065" duration="9916000" />
+      <workItem from="1575417964808" duration="21906000" />
+      <workItem from="1575553347300" duration="260000" />
+      <workItem from="1575590720773" duration="23148000" />
+      <workItem from="1575850086021" duration="418000" />
+      <workItem from="1575850678402" duration="214000" />
+      <workItem from="1575850915355" duration="2460000" />
+      <workItem from="1575863782260" duration="26963000" />
+      <workItem from="1576109697266" duration="16085000" />
+      <workItem from="1576195698757" duration="10580000" />
+      <workItem from="1576284867728" duration="11946000" />
+      <workItem from="1576378596992" duration="1789000" />
+      <workItem from="1576455067962" duration="4876000" />
+      <workItem from="1576551359952" duration="176000" />
+      <workItem from="1576824849441" duration="2343000" />
+      <workItem from="1577063748977" duration="42947000" />
+      <workItem from="1577342180799" duration="2085000" />
+      <workItem from="1577345771046" duration="1047000" />
+    </task>
+    <task id="LOCAL-00001" summary="yjc">
+      <created>1575590938033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575590938033</updated>
+    </task>
+    <task id="LOCAL-00002" summary="yjc">
+      <created>1577330852033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577330852033</updated>
+    </task>
+    <task id="LOCAL-00003" summary="yjc">
+      <created>1577331680035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577331680035</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="yjc" />
+    <option name="LAST_COMMIT_MESSAGE" value="yjc" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="23" key="#MqttApplication" timestamp="1577342415560">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state x="263" y="23" key="#MqttApplication/0.23.1280.720@0.23.1280.720" timestamp="1577342415560" />
+    <state x="240" y="50" key="#Project_Structure" timestamp="1577343188252">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state x="240" y="50" key="#Project_Structure/0.23.1280.720@0.23.1280.720" timestamp="1577343188252" />
+    <state x="453" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1577236604600">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="453" y="96" key="#com.intellij.ide.util.MemberChooser/0.23.1280.721@0.23.1280.721" timestamp="1577236604600" />
+    <state x="258" y="61" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1577342389082">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state x="258" y="61" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1280.720@0.23.1280.720" timestamp="1577342389082" />
+    <state x="474" y="290" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577342234418">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state x="474" y="297" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.800@0.0.1280.800" timestamp="1575850784552" />
+    <state x="474" y="290" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.720@0.23.1280.720" timestamp="1577342234418" />
+    <state x="378" y="139" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576119495447">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="378" y="139" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.721@0.23.1280.721" timestamp="1576119495447" />
+    <state x="399" y="236" key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent" timestamp="1577329487149">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="399" y="236" key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent/0.23.1280.721@0.23.1280.721" timestamp="1577329487149" />
+    <state x="184" y="23" key="CommitChangelistDialog2" timestamp="1577346943996">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state x="184" y="23" key="CommitChangelistDialog2/0.23.1280.720@0.23.1280.720" timestamp="1577346943996" />
+    <state x="189" y="23" key="CommitChangelistDialog2/0.23.1280.721@0.23.1280.721" timestamp="1577331634529" />
+    <state width="428" height="466" key="DebuggerActiveHint" timestamp="1576131114563">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state width="428" height="466" key="DebuggerActiveHint/0.23.1280.721@0.23.1280.721" timestamp="1576131114563" />
+    <state width="1238" height="224" key="GridCell.Tab.0.bottom" timestamp="1577343413064">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576315601748" />
+    <state width="1238" height="224" key="GridCell.Tab.0.bottom/0.23.1280.720@0.23.1280.720" timestamp="1577343413064" />
+    <state width="1238" height="146" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1577341434431" />
+    <state width="1238" height="224" key="GridCell.Tab.0.center" timestamp="1577343413064">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576315601747" />
+    <state width="1238" height="224" key="GridCell.Tab.0.center/0.23.1280.720@0.23.1280.720" timestamp="1577343413064" />
+    <state width="1238" height="146" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1577341434430" />
+    <state width="1238" height="224" key="GridCell.Tab.0.left" timestamp="1577343413063">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576315601746" />
+    <state width="1238" height="224" key="GridCell.Tab.0.left/0.23.1280.720@0.23.1280.720" timestamp="1577343413063" />
+    <state width="1238" height="146" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1577341434430" />
+    <state width="1238" height="224" key="GridCell.Tab.0.right" timestamp="1577343413064">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576315601747" />
+    <state width="1238" height="224" key="GridCell.Tab.0.right/0.23.1280.720@0.23.1280.720" timestamp="1577343413064" />
+    <state width="1238" height="146" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1577341434430" />
+    <state width="1238" height="224" key="GridCell.Tab.1.bottom" timestamp="1577343413066">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576314075916" />
+    <state width="1238" height="224" key="GridCell.Tab.1.bottom/0.23.1280.720@0.23.1280.720" timestamp="1577343413066" />
+    <state width="1238" height="146" key="GridCell.Tab.1.bottom/0.23.1280.721@0.23.1280.721" timestamp="1577341434432" />
+    <state width="1238" height="224" key="GridCell.Tab.1.center" timestamp="1577343413065">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1576314075914" />
+    <state width="1238" height="224" key="GridCell.Tab.1.center/0.23.1280.720@0.23.1280.720" timestamp="1577343413065" />
+    <state width="1238" height="146" key="GridCell.Tab.1.center/0.23.1280.721@0.23.1280.721" timestamp="1577341434432" />
+    <state width="1238" height="224" key="GridCell.Tab.1.left" timestamp="1577343413065">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1576314075913" />
+    <state width="1238" height="224" key="GridCell.Tab.1.left/0.23.1280.720@0.23.1280.720" timestamp="1577343413065" />
+    <state width="1238" height="146" key="GridCell.Tab.1.left/0.23.1280.721@0.23.1280.721" timestamp="1577341434431" />
+    <state width="1238" height="224" key="GridCell.Tab.1.right" timestamp="1577343413066">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1576314075915" />
+    <state width="1238" height="224" key="GridCell.Tab.1.right/0.23.1280.720@0.23.1280.720" timestamp="1577343413066" />
+    <state width="1238" height="146" key="GridCell.Tab.1.right/0.23.1280.721@0.23.1280.721" timestamp="1577341434432" />
+    <state width="1238" height="224" key="GridCell.Tab.2.bottom" timestamp="1577343413068">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576314075920" />
+    <state width="1238" height="224" key="GridCell.Tab.2.bottom/0.23.1280.720@0.23.1280.720" timestamp="1577343413068" />
+    <state width="1238" height="146" key="GridCell.Tab.2.bottom/0.23.1280.721@0.23.1280.721" timestamp="1577341434434" />
+    <state width="1238" height="224" key="GridCell.Tab.2.center" timestamp="1577343413067">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1576314075919" />
+    <state width="1238" height="224" key="GridCell.Tab.2.center/0.23.1280.720@0.23.1280.720" timestamp="1577343413067" />
+    <state width="1238" height="146" key="GridCell.Tab.2.center/0.23.1280.721@0.23.1280.721" timestamp="1577341434433" />
+    <state width="1238" height="224" key="GridCell.Tab.2.left" timestamp="1577343413066">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1576314075918" />
+    <state width="1238" height="224" key="GridCell.Tab.2.left/0.23.1280.720@0.23.1280.720" timestamp="1577343413066" />
+    <state width="1238" height="146" key="GridCell.Tab.2.left/0.23.1280.721@0.23.1280.721" timestamp="1577341434433" />
+    <state width="1238" height="224" key="GridCell.Tab.2.right" timestamp="1577343413067">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state width="1238" height="190" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1576314075920" />
+    <state width="1238" height="224" key="GridCell.Tab.2.right/0.23.1280.720@0.23.1280.720" timestamp="1577343413067" />
+    <state width="1238" height="146" key="GridCell.Tab.2.right/0.23.1280.721@0.23.1280.721" timestamp="1577341434433" />
+    <state x="149" y="23" width="1024" height="720" key="SettingsEditor" timestamp="1577343273370">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state x="149" y="23" width="1024" height="722" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1575863597667" />
+    <state x="149" y="23" width="1024" height="720" key="SettingsEditor/0.23.1280.720@0.23.1280.720" timestamp="1577343273370" />
+    <state x="149" y="23" width="982" height="721" key="SettingsEditor/0.23.1280.721@0.23.1280.721" timestamp="1575850893547" />
+    <state width="640" height="360" key="XDebugger.FullValuePopup" timestamp="1576116036188">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state width="640" height="360" key="XDebugger.FullValuePopup/0.23.1280.721@0.23.1280.721" timestamp="1576116036188" />
+    <state x="100" y="123" width="1080" height="521" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577261118812">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="100" y="123" width="1080" height="521" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.721@0.23.1280.721" timestamp="1577261118812" />
+    <state x="296" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1575850681400">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="296" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.721@0.23.1280.721" timestamp="1575850681400" />
+    <state x="295" y="261" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogintegrate" timestamp="1577329523903">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="295" y="261" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogintegrate/0.23.1280.721@0.23.1280.721" timestamp="1577329523903" />
+    <state x="441" y="237" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577331544299">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="441" y="237" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.721@0.23.1280.721" timestamp="1577331544299" />
+    <state x="228" y="23" width="824" height="721" key="find.popup" timestamp="1576136014317">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="228" y="23" width="824" height="721" key="find.popup/0.23.1280.721@0.23.1280.721" timestamp="1576136014317" />
+    <state x="444" y="289" key="svn.passwordDialog" timestamp="1577341373505">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="444" y="289" key="svn.passwordDialog/0.23.1280.721@0.23.1280.721" timestamp="1577341373505" />
+    <state x="399" y="74" key="svn.repositoryBrowser" timestamp="1577346433619">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state x="399" y="74" key="svn.repositoryBrowser/0.23.1280.720@0.23.1280.720" timestamp="1577346433619" />
+    <state x="399" y="74" key="svn.repositoryBrowser/0.23.1280.721@0.23.1280.721" timestamp="1577341228217" />
+    <state x="436" y="290" key="svn.upgradeDialog" timestamp="1577346434955">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state x="436" y="290" key="svn.upgradeDialog/0.23.1280.720@0.23.1280.720" timestamp="1577346434955" />
+    <state x="436" y="290" key="svn.upgradeDialog/0.23.1280.721@0.23.1280.721" timestamp="1577341231495" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/czmz$MqttApplication.ic" NAME="MqttApplication Coverage Results" MODIFIED="1576029991361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gpu.mqtt.*</FILTER>
+    </SUITE>
+  </component>
+</project>

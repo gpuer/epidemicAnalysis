@@ -1,0 +1,89 @@
+package com.czmz.mqtt.deviceType.controller;
+
+
+import com.alibaba.fastjson.JSONObject;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.common.BaseFinal;
+import com.czmz.mqtt.common.FileHandleUtil;
+import com.czmz.mqtt.common.JsonResult;
+import com.czmz.mqtt.deviceType.entity.DeviceTypeRecord;
+import com.czmz.mqtt.deviceType.service.IDeviceTypeRecordService;
+import com.czmz.mqtt.mqttHadnle.IMqttSender;
+import com.czmz.mqtt.online.entity.OnlineRecord;
+import com.czmz.mqtt.online.entity.PPage;
+import com.czmz.mqtt.utils.PubUtils;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * <p>
+ *  前端控制器
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-12-14
+ */
+@RestController
+@RequestMapping("device")
+public class DeviceTypeRecordController {
+    @Autowired
+    private IDeviceTypeRecordService iDeviceTypeService;
+    @Resource
+    private IMqttSender iMqttSender;
+    @ApiOperation("getAll")
+    @GetMapping("getAllType")
+    JSONObject getList(){
+        return JsonResult.success(
+                iDeviceTypeService.list(Wrappers.<DeviceTypeRecord>lambdaQuery()
+                        .eq(DeviceTypeRecord::getIsDel, BaseFinal.NOTDEL))
+        );
+    }
+    @PostMapping("getAllTypePage")
+    JSONObject getAllPage(@RequestBody PPage page){
+        return JsonResult.success(
+                iDeviceTypeService
+                        .selectAll(new Page(page.getCurrent(),page.getSize()))
+        );
+    }
+    @PostMapping("updateType")
+    JSONObject updateType(@RequestBody DeviceTypeRecord deviceType){
+        iDeviceTypeService.saveOrUpdate(deviceType);
+        return JsonResult.success("success");
+    }
+    @GetMapping("deleteType")
+    JSONObject deleteType(Long id){
+        iDeviceTypeService.removeById(id);
+        return JsonResult.success("success");
+    }
+    @PostMapping("DevAutoUpdate")
+    JSONObject DevAutoUpdate(@RequestBody DeviceTypeRecord deviceType){
+        iDeviceTypeService.updateById(deviceType);
+        Map<String,Object> map=new HashMap<>();
+        map.put("version",deviceType.getVersion());
+        map.put("url",deviceType.getFirmwareUrl());
+        iMqttSender.senToMqtt(deviceType.getUpdateTopic(), JSONObject.toJSONString(map));
+        return JsonResult.success("success");
+    }
+    @ApiOperation("onloadUpdateFile")
+    @PostMapping("onloadUpdateFile")
+    JSONObject onloadUpdateFile(@RequestParam MultipartFile file) throws IOException {
+        if(file.isEmpty()){
+            return JsonResult.fail("文件上传失败！",JsonResult.UNPASS_CODE);
+        }
+        String str= FileHandleUtil.upload(file.getInputStream(), "update/", file.getOriginalFilename());
+        return JsonResult.success(str);
+    }
+}

@@ -1,0 +1,22 @@
+package com.czmz.mqtt.userRecord.service;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.device.entity.MyReqBody;
+import com.czmz.mqtt.userRecord.entity.RetUser;
+import com.czmz.mqtt.userRecord.entity.UserRecord;
+import com.baomidou.mybatisplus.extension.service.IService;
+import org.apache.ibatis.annotations.Param;
+
+/**
+ * <p>
+ *  服务类
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-11-29
+ */
+public interface IUserRecordService extends IService<UserRecord> {
+    RetUser getUser(String username);
+    IPage<UserRecord> selectAll(Page page, MyReqBody myReqBody);
+}

@@ -1,0 +1,38 @@
+package com.czmz.mqtt.device.repository;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.device.entity.DeviceRecord;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.czmz.mqtt.deviceType.entity.DeviceTypeRecord;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+
+/**
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-12-23
+ */
+public interface DeviceRecordMapper extends BaseMapper<DeviceRecord> {
+    @Select("SELECT " +
+            "d.id," +
+            "d.client_id," +
+            "d.name," +
+            "c.company," +
+            "d.company_id," +
+            "d.device_type_id," +
+            "t.name as type_name," +
+            "d.min," +
+            "d.max," +
+            "d.address," +
+            "d.node," +
+            "d.created_at  " +
+            " FROM " +
+            " device_record d " +
+            " LEFT JOIN company_record c ON d.company_id = c.id " +
+            " LEFT JOIN device_type_record t ON d.device_type_id=t.id WHERE d.is_del=#{isDel}")
+    IPage<DeviceRecord> selectAll(Page page, @Param("isDel") Integer isDel);
+}

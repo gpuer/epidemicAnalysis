@@ -1,0 +1,35 @@
+package com.czmz.mqtt.utils;
+import java.util.Arrays;
+
+public class DeviceDataHandle {
+    private static final byte[] TEMPERATURE={0,1};
+
+
+    public static float getDeviceValue(byte[] bytes){
+        byte[] flag=new byte[2];
+        float value=0;
+        System.arraycopy(bytes,3,flag,0,2);
+        if(Arrays.equals(flag,TEMPERATURE)){
+            value=byte2float(bytes,5);
+        }
+        return value;
+    }
+    /**
+     * 字节转换为浮点
+     *
+     * @param b 字节（至少4个字节）
+     * @param index 开始位置
+     * @return
+     */
+    static float byte2float(byte[] b, int index) {
+        int l;
+        l = b[index];
+        l &= 0xff;
+        l |= ((long) b[index + 1] );
+        l &= 0xffff;
+        l |= ((long) b[index + 2] );
+        l &= 0xffffff;
+        l |= ((long) b[index + 3] );
+        return Float.intBitsToFloat(l);
+    }
+}

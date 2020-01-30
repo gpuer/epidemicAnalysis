@@ -1,0 +1,234 @@
+===2019-12-25 05:36:23.790 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:263 - Error connecting or subscribing to [/RTP1]
+org.eclipse.paho.client.mqttv3.MqttException: 无法连接至服务器
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 common frames omitted
+===2019-12-25 05:36:23.838 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:307 - Exception while connecting and subscribing
+org.eclipse.paho.client.mqttv3.MqttException: 无法连接至服务器
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 common frames omitted
+===2019-12-25 07:00:03.033 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:263 - Error connecting or subscribing to [/RTP1]
+org.eclipse.paho.client.mqttv3.MqttException: 无法连接至服务器
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 common frames omitted
+===2019-12-25 07:00:03.080 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:307 - Exception while connecting and subscribing
+org.eclipse.paho.client.mqttv3.MqttException: 无法连接至服务器
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 common frames omitted
+===2019-12-25 08:01:36.237 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:263 - Error connecting or subscribing to [/RTP1]
+org.eclipse.paho.client.mqttv3.MqttException: 无法连接至服务器
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 common frames omitted
+===2019-12-25 08:01:36.240 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:307 - Exception while connecting and subscribing
+org.eclipse.paho.client.mqttv3.MqttException: 无法连接至服务器
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 common frames omitted
+===2019-12-25 10:35:25.241 ERROR org.eclipse.paho.client.mqttv3.internal.ClientState Line:210 - server_java_Ox1kj: Timed out as no write activity, keepAlive=2,000 lastOutboundActivity=1,577,239,281,175 lastInboundActivity=1,577,239,281,230 time=1,577,241,325,073 lastPing=1,577,239,281,175
+===2019-12-25 10:35:25.266 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:322 - Lost connection: Timed out while waiting to write messages to the server; retrying...
+===2019-12-25 11:44:21.006 ERROR org.eclipse.paho.client.mqttv3.internal.ClientState Line:210 - server_java_Ox1kj: Timed out as no write activity, keepAlive=2,000 lastOutboundActivity=1,577,241,371,260 lastInboundActivity=1,577,241,371,347 time=1,577,245,461,006 lastPing=1,577,241,371,260
+===2019-12-25 11:44:21.174 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:322 - Lost connection: Timed out while waiting to write messages to the server; retrying...
+===2019-12-25 11:59:22.183 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:322 - Lost connection: 已断开连接; retrying...
+===2019-12-25 11:59:32.214 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:263 - Error connecting or subscribing to [/RTP1]
+org.eclipse.paho.client.mqttv3.MqttException: 无法连接至服务器
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 common frames omitted
+===2019-12-25 11:59:32.217 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:307 - Exception while connecting and subscribing
+org.eclipse.paho.client.mqttv3.MqttException: 无法连接至服务器
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 common frames omitted
+===2019-12-25 11:59:42.228 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:263 - Error connecting or subscribing to [/RTP1]
+org.eclipse.paho.client.mqttv3.MqttException: 无法连接至服务器
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 common frames omitted
+===2019-12-25 11:59:42.229 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:307 - Exception while connecting and subscribing
+org.eclipse.paho.client.mqttv3.MqttException: 无法连接至服务器
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 common frames omitted
+===2019-12-25 12:41:04.012 ERROR org.eclipse.paho.client.mqttv3.internal.ClientState Line:210 - server_java_Ox1kj: Timed out as no write activity, keepAlive=2,000 lastOutboundActivity=1,577,246,782,875 lastInboundActivity=1,577,246,782,939 time=1,577,248,864,005 lastPing=1,577,246,782,875
+===2019-12-25 12:41:04.167 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:322 - Lost connection: Timed out while waiting to write messages to the server; retrying...
+===2019-12-25 13:54:26.004 ERROR org.eclipse.paho.client.mqttv3.internal.ClientState Line:210 - server_java_Ox1kj: Timed out as no write activity, keepAlive=2,000 lastOutboundActivity=1,577,248,909,963 lastInboundActivity=1,577,248,910,068 time=1,577,253,266,004 lastPing=1,577,248,909,963
+===2019-12-25 13:54:26.161 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:322 - Lost connection: Timed out while waiting to write messages to the server; retrying...
+===2019-12-25 14:43:12.495 ERROR org.eclipse.paho.client.mqttv3.internal.ClientState Line:210 - server_java_Ox1kj: Timed out as no activity, keepAlive=2,000 lastOutboundActivity=1,577,256,190,493 lastInboundActivity=1,577,256,188,492 time=1,577,256,192,494 lastPing=1,577,256,190,493
+===2019-12-25 14:43:12.497 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:322 - Lost connection: 等待来自服务器的响应时超时; retrying...
+===2019-12-25 14:43:27.508 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:263 - Error connecting or subscribing to [/RTP1]
+org.eclipse.paho.client.mqttv3.MqttException: 等待来自服务器的响应时超时
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForCompletion(Token.java:112)
+	at org.eclipse.paho.client.mqttv3.MqttToken.waitForCompletion(MqttToken.java:67)
+	at org.eclipse.paho.client.mqttv3.MqttClient.connect(MqttClient.java:238)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter.connectAndSubscribe(MqttPahoMessageDrivenChannelAdapter.java:244)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter.access$300(MqttPahoMessageDrivenChannelAdapter.java:51)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter$1.run(MqttPahoMessageDrivenChannelAdapter.java:301)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2019-12-25 14:43:57.516 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:307 - Exception while connecting and subscribing
+org.eclipse.paho.client.mqttv3.MqttException: 等待来自服务器的响应时超时
+	at org.eclipse.paho.client.mqttv3.internal.Token.waitForCompletion(Token.java:112)
+	at org.eclipse.paho.client.mqttv3.MqttToken.waitForCompletion(MqttToken.java:67)
+	at org.eclipse.paho.client.mqttv3.MqttClient.connect(MqttClient.java:238)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter.connectAndSubscribe(MqttPahoMessageDrivenChannelAdapter.java:244)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter.access$300(MqttPahoMessageDrivenChannelAdapter.java:51)
+	at org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter$1.run(MqttPahoMessageDrivenChannelAdapter.java:301)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+===2019-12-25 14:43:57.517 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:322 - Lost connection: 已断开连接; retrying...
+===2019-12-25 15:54:15.608 ERROR com.czmz.mqtt.config.WebExceptionHandler Line:17  - Text 'null-01' could not be parsed at index 0
+===2019-12-25 16:48:00.658 ERROR com.czmz.mqtt.config.WebExceptionHandler Line:17  - Text '123-01' could not be parsed at index 0
+===2019-12-25 17:01:06.116 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:42  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field interceptor in com.czmz.mqtt.config.WebConfig required a bean of type 'com.czmz.mqtt.filter.TokenInterceptor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.czmz.mqtt.filter.TokenInterceptor' in your configuration.
+
+===2019-12-25 17:14:55.082 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:322 - Lost connection: 已断开连接; retrying...
+===2019-12-25 17:15:05.153 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:263 - Error connecting or subscribing to [/RTP1]
+org.eclipse.paho.client.mqttv3.MqttException: 无法连接至服务器
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 common frames omitted
+===2019-12-25 17:15:05.157 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:307 - Exception while connecting and subscribing
+org.eclipse.paho.client.mqttv3.MqttException: 无法连接至服务器
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 2 common frames omitted
+===2019-12-25 21:45:05.299 ERROR org.eclipse.paho.client.mqttv3.internal.ClientState Line:210 - server_java_1YU17: Timed out as no write activity, keepAlive=2,000 lastOutboundActivity=1,577,266,410,834 lastInboundActivity=1,577,266,410,840 time=1,577,281,505,169 lastPing=1,577,266,410,834
+===2019-12-25 21:45:05.379 ERROR org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter Line:322 - Lost connection: Timed out while waiting to write messages to the server; retrying...

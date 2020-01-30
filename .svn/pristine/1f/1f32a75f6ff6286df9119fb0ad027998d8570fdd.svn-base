@@ -1,0 +1,140 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : mqtt_mysql
+ Source Server Type    : MySQL
+ Source Server Version : 50728
+ Source Host           : 192.168.0.84:3306
+ Source Schema         : mqtt_new
+
+ Target Server Type    : MySQL
+ Target Server Version : 50728
+ File Encoding         : 65001
+
+ Date: 05/12/2019 14:51:56
+*/
+
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+-- Table structure for company_record
+-- ----------------------------
+DROP TABLE IF EXISTS `company_record`;
+CREATE TABLE `company_record` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `company` varchar(255) COLLATE utf8_bin NOT NULL COMMENT '公司名称',
+  `created_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `is_del` bit(1) DEFAULT b'0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+-- ----------------------------
+-- Table structure for device_record
+-- ----------------------------
+DROP TABLE IF EXISTS `device_record`;
+CREATE TABLE `device_record` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `company_id` bigint(20) NOT NULL COMMENT '公司id',
+  `dev_uid` varchar(100) COLLATE utf8_bin NOT NULL COMMENT '设备uid',
+  `device_type` bigint(20) DEFAULT NULL COMMENT '设备类型',
+  `max` double(100,0) DEFAULT NULL COMMENT '最大阈值',
+  `min` double(100,0) DEFAULT NULL COMMENT '最小阈值',
+  `address` varchar(255) COLLATE utf8_bin DEFAULT NULL COMMENT '设备位置',
+  `node` varchar(255) COLLATE utf8_bin DEFAULT NULL COMMENT '备注信息',
+  `created_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `is_del` bit(1) DEFAULT b'0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+-- ----------------------------
+-- Table structure for device_type_record
+-- ----------------------------
+DROP TABLE IF EXISTS `device_type_record`;
+CREATE TABLE `device_type_record` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  `node` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `is_del` bit(1) DEFAULT b'0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+-- ----------------------------
+-- Table structure for identity_record
+-- ----------------------------
+DROP TABLE IF EXISTS `identity_record`;
+CREATE TABLE `identity_record` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `identity` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  `created_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `is_del` bit(1) DEFAULT b'0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+-- ----------------------------
+-- Table structure for online_record
+-- ----------------------------
+DROP TABLE IF EXISTS `online_record`;
+CREATE TABLE `online_record` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `client_id` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `is_del` bit(1) DEFAULT b'0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=86 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+-- Table structure for published_record
+-- ----------------------------
+DROP TABLE IF EXISTS `published_record`;
+CREATE TABLE `published_record` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `topic` varchar(255) DEFAULT NULL,
+  `client_id` varchar(255) DEFAULT NULL,
+  `username` varchar(255) DEFAULT NULL,
+  `payload` json DEFAULT NULL,
+  `flag` varbinary(50) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `is_del` bit(1) DEFAULT b'0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=203 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+-- Table structure for subscribes_record
+-- ----------------------------
+DROP TABLE IF EXISTS `subscribes_record`;
+CREATE TABLE `subscribes_record` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `client_id` varchar(255) DEFAULT NULL,
+  `topic` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `is_del` bit(1) DEFAULT b'0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+-- Table structure for user_record
+-- ----------------------------
+DROP TABLE IF EXISTS `user_record`;
+CREATE TABLE `user_record` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) COLLATE utf8_bin NOT NULL COMMENT '用户名',
+  `password` varchar(20) COLLATE utf8_bin NOT NULL COMMENT '密码',
+  `topic` varchar(255) COLLATE utf8_bin DEFAULT NULL COMMENT '订阅地址',
+  `identity_id` bigint(20) NOT NULL DEFAULT '0' COMMENT '身份id',
+  `company_id` bigint(20) DEFAULT NULL COMMENT '公司id',
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `is_del` bit(1) DEFAULT b'0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+SET FOREIGN_KEY_CHECKS = 1;

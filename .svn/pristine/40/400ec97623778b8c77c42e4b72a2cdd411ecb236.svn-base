@@ -1,0 +1,42 @@
+package com.czmz.mqtt.userRecord.controller;
+
+import com.alibaba.fastjson.JSONObject;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.common.BaseFinal;
+import com.czmz.mqtt.common.JsonResult;
+import com.czmz.mqtt.online.entity.PPage;
+import com.czmz.mqtt.userRecord.entity.UserRecord;
+import com.czmz.mqtt.userRecord.service.IUserRecordService;
+import io.swagger.annotations.Api;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+@Api
+@RestController
+@RequestMapping("userManage")
+public class UserManageController {
+    @Autowired
+    IUserRecordService iUserService;
+
+
+    @PostMapping("getAll")
+    JSONObject getAllPage(@RequestBody PPage page){
+        return JsonResult.success(
+                iUserService
+                        .selectAll(new Page(page.getCurrent(),page.getSize()))
+        );
+    }
+    @GetMapping("delUser")
+    JSONObject delUser(Long id){
+        UserRecord userRecord=new UserRecord();
+        userRecord.setId(id);
+        userRecord.setIsDel(BaseFinal.DEL);
+        iUserService.updateById(userRecord);
+        return JsonResult.success("success");
+    }
+    @PostMapping("updateInfo")
+    JSONObject updateInfo(@RequestBody UserRecord user){
+        iUserService.updateById(user);
+        return JsonResult.success("success");
+    }
+}

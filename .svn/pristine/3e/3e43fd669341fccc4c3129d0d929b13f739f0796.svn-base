@@ -1,0 +1,31 @@
+package com.czmz.mqtt.deviceType.service.impl;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.czmz.mqtt.device.entity.DeviceRecord;
+import com.czmz.mqtt.deviceType.entity.DeviceTypeRecord;
+import com.czmz.mqtt.deviceType.repository.DeviceTypeRecordMapper;
+import com.czmz.mqtt.deviceType.service.IDeviceTypeRecordService;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.czmz.mqtt.online.entity.OnlineRecord;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+/**
+ * <p>
+ *  服务实现类
+ * </p>
+ *
+ * @author yjc
+ * @since 2019-12-14
+ */
+@Service
+public class DeviceTypeRecordServiceImpl extends ServiceImpl<DeviceTypeRecordMapper, DeviceTypeRecord> implements IDeviceTypeRecordService {
+    @Autowired
+    private DeviceTypeRecordMapper deviceTypeRecordMapper;
+
+    @Override
+    public IPage<DeviceTypeRecord> selectAll(Page page) {
+        return deviceTypeRecordMapper.selectAll(page);
+    }
+}
