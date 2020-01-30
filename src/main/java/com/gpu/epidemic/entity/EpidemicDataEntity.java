@@ -9,8 +9,10 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
 
 import io.swagger.annotations.ApiModel;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
@@ -26,6 +28,8 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 @TableName("epidemic_data")
 @ApiModel(value="EpidemicDataEntity对象", description="")
+@AllArgsConstructor
+@NoArgsConstructor
 public class EpidemicDataEntity extends Model<EpidemicDataEntity> {
 
     private static final long serialVersionUID=1L;
@@ -54,6 +58,12 @@ public class EpidemicDataEntity extends Model<EpidemicDataEntity> {
     @TableField("created_at")
     private LocalDateTime createdAt;
 
+    public EpidemicDataEntity(Integer confirm, Integer suspect, Integer dead, Integer heal) {
+        this.confirm = confirm;
+        this.suspect = suspect;
+        this.dead = dead;
+        this.heal = heal;
+    }
 
     @Override
     protected Serializable pkVal() {
