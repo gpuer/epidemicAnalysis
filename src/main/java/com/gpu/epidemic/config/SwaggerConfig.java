@@ -1,5 +1,6 @@
 package com.gpu.epidemic.config;
 
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -16,13 +17,13 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
+                .apis(RequestHandlerSelectors.withClassAnnotation(Api.class))
                 .build();
     }
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("后台接口文档")
-                .description("mqtt后台接口文档")
+                .description("后台接口文档")
                 .version("1")
                 .build();
     }

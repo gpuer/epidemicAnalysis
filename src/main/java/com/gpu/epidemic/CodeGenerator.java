@@ -42,18 +42,21 @@ public class CodeGenerator {
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("");
-        dsc.setUrl("jdbc:mysql://xxx:3306/xxx?useUnicode=true&useSSL=false&characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://47.94.237.177:3306/mapp?useUnicode=true&useSSL=false&characterEncoding=utf8");
         mpg.setDataSource(dsc);
 
         //策略配置
         StrategyConfig strategy = new StrategyConfig();
-        //此处可以修改您的表前缀
-        strategy.setTablePrefix("sys_");
         //表名生成策略
         strategy.setNaming(NamingStrategy.underline_to_camel);
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
         //需要生成的表
-        strategy.setInclude("epidemic_data");
+        strategy.setInclude(
+                "city",
+                "province",
+                "city_log",
+                "province_log"
+        );
 
         strategy.setEntityLombokModel(true);
         strategy.setEntitySerialVersionUID(true);
